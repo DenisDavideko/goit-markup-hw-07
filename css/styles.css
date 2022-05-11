@@ -374,8 +374,13 @@ html{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-black);
+  
+}
+
+.dignity__name--indent{
   margin-bottom: 10px;
 }
+
 .dignity__item {
   
   font-style: normal;
@@ -393,6 +398,9 @@ html{
   justify-content: center;
   background: #F5F4FA;
   border-radius: 4px;
+
+}
+.dignity__logo--indent{
   margin-bottom: 30px;
 }
 
@@ -545,7 +553,7 @@ html{
   align-items: center;
   justify-content: center;
 }
-.brand-link{ 
+.clients-brand__link{ 
   width: 170px;
   height: 92px;
   display: flex;
@@ -556,29 +564,29 @@ html{
   transition:border 250ms,fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.brand-item{
+.clients-brand__item--indent{
   margin-right: 30px;
   
 }
-.brand-icon{
+.clients-brand__icon{
   fill: #AFB1B8;
 }
-.brand-icon{
+.clients-brand__icon{
   transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.brand-item:last-child{
+.clients-brand__item--indent:last-child{
   margin-right: 0px
 }
-.brand-link:focus{
+.clients-brand__link:focus{
   background: #E5E5E5;
   border:1px solid var(--color-hover);
 }
 
-.brand-link:hover{
+.clients-brand__link:hover{
   background: var(--color-white);
   border:1px solid var(--color-hover);
 }
-.brand-link:hover .brand-icon{
+.clients-brand__link:hover .clients-brand__icon{
   fill:var(--color-hover);
   
 }
@@ -590,13 +598,13 @@ html{
   justify-content: center;
   margin-bottom: 50px;
 }
-.button-item{
+.buttons-list__item--right{
   margin-right: 8px;
 }
-.button-item:nth-child(5){
+.buttons-list__item--right:nth-child(5){
   margin-right: 0px;
 }
-.button{
+.buttons-list__label{
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -616,24 +624,24 @@ html{
   
 }
 
-.button.current {
+.buttons-list__label.current {
   background: var(--color-hover);
   color:var(--color-white);
 }
 
-.button:hover {
+.buttons-list__label:hover {
   background: var(--color-hover);
   color: var(--color-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.button:focus {
+.buttons-list__label:focus {
   background: var(--color-hover);
   color: var(--color-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.button:active{
+.buttons-list__label:active{
   background: var(--color-hover);
   color: var(--color-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -657,6 +665,9 @@ html{
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: var(--color-black);
+  
+}
+.projects__name--bottom{
   margin-bottom: 4px;
 }
 
