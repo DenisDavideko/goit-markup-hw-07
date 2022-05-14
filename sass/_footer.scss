@@ -1,0 +1,104 @@
+.footer{
+    background: #2f303a;
+    padding: 60px 0;
+  }
+  
+  .container-contacts {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+  }
+  
+  .address-map {
+    color: var(--color-white);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .link:active,
+    .link:hover,
+    .link:focus {
+     color: var(--color-hover);
+    }
+  }
+  
+  .address{
+    font-style: normal;
+  }
+  .address-item{
+    margin-bottom:9px;
+    &:last-child{
+      margin-bottom: 0px;
+    }
+  }
+
+  
+  .address-mail {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .link:hover,
+    .link:active,
+    .link:focus {
+    color: var(--color-hover);
+    }
+    
+  }
+  .address-tel {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .link:active,
+    .link:hover,
+    .link:focus {
+      color: var(--color-hover);
+    }
+  }
+  .address-mail,
+  .address-tel.link {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .social-footer{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-white);
+    margin-bottom: 20px;
+    }
+  .footer-social-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:background-color 250ms,fill 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{
+      background-color: var(--color-hover);
+      border-radius: 50%;
+    }
+  }
+  .footer-social-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-social-item{
+   & + & {margin-left: 10px;} 
+  }
+  .footer-contacts{
+    display:flex;
+    align-items: baseline;
+  }
+  
+  .footer-social-icon{
+    fill:var(--color-white)
+  }
