@@ -20,11 +20,12 @@
   }
 
   .our-team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    @include font(700, 36px, 1.17, 0.03em);
+    // font-weight: 700;
+    // font-size: 36px;
+    // line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
+    // letter-spacing: 0.03em;
     color: var(--color-black);
     margin: 0 auto;
     margin-bottom: 50px;
@@ -36,22 +37,24 @@
   }
   
   .team-member-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    @include font(500, 66px, 1.19, 0.03em);
+    // font-weight: 500;
+    // font-size: 16px;
+    // line-height: 1.19;
     /* identical to box height */
     text-align: center;
-    letter-spacing: 0.03em;
+    // letter-spacing: 0.03em;
     color: var(--color-black);
     margin-bottom: 10px;
   }
   .team-member-position {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
+    @include font(null, 16px, 1.19, 0.03em);
+    // font-weight: 400;
+    // font-size: 16px;
+    // line-height: 1.19;
     /* identical to box height */
     text-align: center;
-    letter-spacing: 0.03em;
+    // letter-spacing: 0.03em;
     color: var(--color-grey);
     margin-bottom: 16px;
   }
@@ -65,9 +68,10 @@
   .team-social-link {
     width: 44px;
     height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     border-radius: 50%;
     transition:background-color 250ms,fill 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

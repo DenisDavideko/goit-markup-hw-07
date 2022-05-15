@@ -15,11 +15,12 @@
     width: 696px;
     margin: 0 auto;
     margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    @include font(900, 44px, 1.36, 0.06em);
+    // font-weight: 900;
+    // font-size: 44px;
+    // line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
+    // letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-white);
   }
@@ -29,10 +30,11 @@
     padding : 10px 0px;
     margin: 0 auto;
     font-family: Roboto, sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
+    @include font(700, 16px, 1.88, 0.06em);
+    // font-weight: 700;
+    // font-size: 16px;
+    // line-height: 1.88;
+    // letter-spacing: 0.06em;
     color: var(--color-white);
     background: var(--color-hover);
     cursor: pointer;

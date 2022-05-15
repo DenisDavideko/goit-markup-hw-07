@@ -6,11 +6,12 @@
   
   .projects__name {
     font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    /* identical to box height, or 200% */
-    letter-spacing: 0.06em;
+    @include font(700, 18px, 2, 0.06em);
+    // font-weight: 700;
+    // font-size: 18px;
+    // line-height: 2;
+    // /* identical to box height, or 200% */
+    // letter-spacing: 0.06em;
     color: var(--color-black);
     
   }
@@ -20,11 +21,12 @@
   
   .project__type {
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    /* identical to box height, or 188% */
-    letter-spacing: 0.03em;
+    @include font(null, 16px, 1.88, 0.03em);
+    // font-weight: 400;
+    // font-size: 16px;
+    // line-height: 1.88;
+    // /* identical to box height, or 188% */
+    // letter-spacing: 0.03em;
     color: var(--color-grey);
   }
   .grid {
@@ -57,11 +59,12 @@
   
   .projects__text{
     position: absolute;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.56;
-    /* or 156% */
-    letter-spacing: 0.03em;
+    @include font(null, 18px, 1.56, 0.03em);
+    // font-weight: 400;
+    // font-size: 18px;
+    // line-height: 1.56;
+    // /* or 156% */
+    // letter-spacing: 0.03em;
     color: var(--color-white);
     top: 0;
     left: 0;

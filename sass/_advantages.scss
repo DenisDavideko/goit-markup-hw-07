@@ -13,10 +13,11 @@
   
   .dignity__name {
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font(700, 14px, 1.14, 0.03em);
+    // font-weight: 700;
+    // font-size: 14px;
+    // line-height: 1.14;
+    // letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-black);
     
@@ -29,18 +30,20 @@
   .dignity__item {
     
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font(null, 14px, 1.71, 0.03em);
+    // font-weight: 400;
+    // font-size: 14px;
+    // line-height: 1.71;
+    // letter-spacing: 0.03em;
     color: var(--color-grey);
   }
   .dignity__logo{
-    display: flex;
+    @extend %flex;
+    // display: flex;
     width: 270px;
     height: 120px;
-    align-items: center;
-    justify-content: center;
+    // align-items: center;
+    // justify-content: center;
     background: #F5F4FA;
     border-radius: 4px;
   
