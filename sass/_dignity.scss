@@ -1,8 +1,8 @@
-  .advantages{
+  .dignity{
     display: flex;
   }
   
-  .dignity{
+  .dignity__item{
     width: 270px;
     margin-right: 30px; 
     &:last-child{
@@ -11,7 +11,7 @@
   }
   
   
-  .dignity__name {
+  .dignity__title {
     font-style: normal;
     @include font(700, 14px, 1.14, 0.03em);
     // font-weight: 700;
@@ -23,11 +23,11 @@
     
   }
   
-  .dignity__name--indent{
+  .dignity__title--indent{
     margin-bottom: 10px;
   }
   
-  .dignity__item {
+  .dignity__text {
     
     font-style: normal;
     @include font(null, 14px, 1.71, 0.03em);

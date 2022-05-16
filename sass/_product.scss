@@ -1,4 +1,4 @@
-.product-title {
+.works__title {
     padding: 0 15px;
     @include font(700, 36px, 1.17, 0.03em);
     // font-weight: 700;
@@ -9,7 +9,7 @@
     color: var(--color-black);
     margin-bottom:  50px;
   }
-  .section-title{
+  .works{
     padding-top: 0;
     padding-bottom: 94px;
   }
@@ -36,6 +36,6 @@
     background-color: rgba(47, 48, 58, 0.8);
   }
   
-  .product__image{
+  .product__item{
     position: relative;
   }
