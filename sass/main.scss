@@ -1,18 +1,20 @@
 @import './utils/variables';
 @import './utils/mixins';
 @import './utils/flex';
-@import './header';
+////////////////////////////////////
+@import './components/header';
 @import './logo/logo';
 //////////////////////////////
-@import './slogan';
-@import './dignity';
-@import './product';
-@import './our-team';
-@import './clients';
+@import './components/slogan';
+@import './components/dignity';
+@import './components/product';
+@import './components/our-team';
+@import './components/clients';
 //////////////////////////////////////////
-@import './projects/projects-list-buttons';
-@import './projects/projects-list';
+@import './components/projects/projects-list-buttons';
+@import './components/projects/projects-list';
 //////////////////////////////////////////////
-@import './modal/modal';
-@import './form-subscription-footer';
-@import './footer';
+@import './components/modal/modal';
+@import './components/form-subscription-footer';
+/////////////////////////////////////////////////
+@import './components/footer';

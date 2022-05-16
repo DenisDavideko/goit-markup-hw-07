@@ -21,16 +21,8 @@
   align-items: center;
   }
 
-
-
-
-
 .menu {
   @include font(500, 14px, 1.14, 0.02em);
-  // font-weight: 500;
-  // font-size: 14px;
-  // line-height: 1.14;
-  // letter-spacing: 0.02em;
   color: var(--color-black);
   display: flex;
   align-items:center;
@@ -80,10 +72,6 @@
 
 .contacts {
   @include font(500, 14px, 1.14, 0.02em);
-  // font-weight: 500;
-  // font-size: 14px;
-  // line-height: 1.14;
-  // letter-spacing: 0.02em;
   margin-left: auto;
   display: flex;
   align-items: center;

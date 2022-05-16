@@ -438,7 +438,6 @@ html {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  /* identical to box height */
   text-align: center;
   color: var(--color-black);
   margin-bottom: 10px;
@@ -448,7 +447,6 @@ html {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  /* identical to box height */
   text-align: center;
   color: var(--color-grey);
   margin-bottom: 16px;
@@ -571,7 +569,6 @@ html {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-  /* identical to box height, or 162% */
   text-align: center;
   cursor: pointer;
   border-radius: 4px;
@@ -944,7 +941,6 @@ a {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-custom {
-  /* border-color: transparent; */
   border: 0;
   background-color: var(--color-hover);
 }
@@ -969,7 +965,6 @@ a {
   width: 200px;
   padding: 10px 0px;
   margin-right: 10px;
-  /* margin: 0 auto; */
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -1010,10 +1005,8 @@ a {
 .footer-form-input {
   width: 358px;
   padding: 15px 16px;
-  /* background-color: transparent; */
   background-color: #2F303A;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
   border-radius: 4px;
   margin-right: 12px;
   outline: transparent;
@@ -1025,7 +1018,6 @@ a {
 .footer-form-input::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
-  /* identical to box height, or 125% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -1033,7 +1025,6 @@ a {
 .footer-form-input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
-  /* identical to box height, or 125% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -1041,7 +1032,6 @@ a {
 .footer-form-input::-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
-  /* identical to box height, or 125% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -1049,7 +1039,6 @@ a {
 .footer-form-input::placeholder {
   font-size: 16px;
   line-height: 1.25;
-  /* identical to box height, or 125% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }

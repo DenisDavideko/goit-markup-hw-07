@@ -1,27 +1,18 @@
 .clients{
   @include font(700, 36px, 1.17, 0.03em);
-    // font-weight: 700;
-    // font-size: 36px;
-    // line-height: 1.17;
     text-align: center;
-    // letter-spacing: 0.03em;
     color: var(--color-black);
     margin: 0 auto;
     margin-bottom: 50px;
   }
   .clients-brand{
     @extend %flex;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
   }
+
   .clients-brand__link{ 
     width: 170px;
     height: 92px;
     @extend %flex;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     transition:border 250ms,fill 250ms;

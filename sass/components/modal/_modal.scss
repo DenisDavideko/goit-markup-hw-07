@@ -49,21 +49,13 @@
 
 .modal-form-title{
   @include font(700, 20px, 1.15, 0.03em);
-  // font-weight: 700;
-  // font-size: 20px;
-  // line-height: 1.15;
   text-align: center;
-  // letter-spacing: 0.03em;
   color:var(--color-black);
 }
 .modal-form-title{
   @include font(700, 20px, 1.15, 0.03em);
   display: block;
-  // font-weight: 700;
-  // font-size: 20px;
-  // line-height: 1.15;
   text-align: center;
-  // letter-spacing: 0.03em;
   color: var(--color-black);
   margin-bottom: 12px;
 }
@@ -72,10 +64,7 @@
   display: block;
   margin-bottom: 10px;
   &:last-of-type{
-    @extend %flex;
-    // display:flex ;
-    // align-items: center;
-    // justify-content: center;
+    @extend %flex;;
     margin-bottom: 30px; 
   }
 }
@@ -126,9 +115,6 @@
   }
   &::placeholder{
     @include font(null, 12px, 1.16, 0.01em);
-    // font-size: 12px;
-    // line-height: 1.16;
-    // letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
   }
 }
@@ -173,9 +159,6 @@ a{
 }
 .modal-form-checkbox-custom{
   @extend %flex;
-  // display:flex ;
-  // align-items: center;
-  // justify-content: center;
   margin-right: 7px;
   width: 16px;
   height: 15px;
@@ -191,7 +174,6 @@ a{
   border-color: var(--color-hover);
   }
   .modal-form-checkbox:checked + &{
-    /* border-color: transparent; */
     border: 0;
     background-color: var(--color-hover);
   }
